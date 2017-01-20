@@ -1,15 +1,21 @@
 {
-    "include": [
-        "src/*"
+    "files": [
+        "src/enemy.ts",
+        "src/player.ts",
+        "src/game.ts"
     ],
     "compileOnSave": true,
     "compilerOptions": {
         "allowJs": true,
         "alwaysStrict": true,
-        "module": "none",
+        "target": "es5",
+        "module": "system",
         "noImplicitAny": true,
         "noImplicitThis": true,
         "outFile": "lib/swift.js",
-        "pretty": true
+        "pretty": true,
+        "typeRoots": [
+            "./typings"
+        ]
     }
 }
