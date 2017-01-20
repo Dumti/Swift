@@ -1,0 +1,15 @@
+{
+    "include": [
+        "src/*"
+    ],
+    "compileOnSave": true,
+    "compilerOptions": {
+        "allowJs": true,
+        "alwaysStrict": true,
+        "module": "none",
+        "noImplicitAny": true,
+        "noImplicitThis": true,
+        "outFile": "lib/swift.js",
+        "pretty": true
+    }
+}

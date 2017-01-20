@@ -1,0 +1,23 @@
+{
+  "name": "swift",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dumti/Swift.git"
+  },
+  "author": "Dumti",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Dumti/Swift/issues"
+  },
+  "homepage": "https://github.com/Dumti/Swift#readme",
+  "devDependencies": {
+    "typescript": "^2.1.5"
+  }
+}
